@@ -1,5 +1,7 @@
 # Ola-data_analytics_POWERBI
 End-to-end analytics for Ola ride operations analyzing rides, drivers, and customer patterns. Uses Power BI dashboards to monitor ride performance, optimize driver allocation, analyze cancellations, and improve operational efficiency.
+
+
 🚀 Ola Ride-Sharing Analytics: End-to-End Power BI Dashboard
 100K+ rows analyzed | SQL ETL → Interactive Power BI Visuals | Business Insights for Ride-Sharing Optimization
 High cancellation rates (25% total: 10K+ customer cancels, 6.5K driver issues) and suboptimal vehicle allocation hurt revenue. This dashboard optimizes:​
