@@ -29,6 +29,7 @@ Visuals: Bar chart (cancellations), Map (distances), Line chart (trends), Table 
 DAX Measures Created:
 
 Success Rate = DIVIDE([Successful Bookings], [Total_Booking], 0)
+
 Cancellation Rate = DIVIDE([Cancelled Bookings], [Total_Bookings], 0)
 
 🚀 Business Impact
