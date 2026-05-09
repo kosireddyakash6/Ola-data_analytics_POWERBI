@@ -1,6 +1,6 @@
 **🚕 Ola Ride-Sharing Analytics Dashboard (Power BI Case Study)
 
-🧠 Business Problem**
+**🧠 Business Problem**
 
 Ola’s ride ecosystem shows operational inefficiencies affecting revenue and customer experience:
 
@@ -58,6 +58,7 @@ Cancellation Rate = DIVIDE([Cancelled Bookings], [Total Bookings], 0)
 
 ✔ Repeat customers contribute disproportionately to total bookings, indicating strong customer concentration
 
+
 **💡 Business Recommendations**
 
 ✔ Dynamic Driver Allocation System
@@ -83,10 +84,6 @@ Cancellation Rate = DIVIDE([Cancelled Bookings], [Total Bookings], 0)
 **🧠 Executive Summary**
 
 This project demonstrates an end-to-end Data Analytics workflow:
-
-Raw Data → SQL/Excel → Power BI Modeling → KPI Dashboard → Insights → Business Decisions
-
-It replicates real-world mobility analytics similar to ride-sharing platforms like Ola and Uber, focusing on operational efficiency and revenue optimization.
 
 Raw Data → SQL/Excel → Power BI Modeling → KPI Dashboard → Insights → Business Decisions
 
