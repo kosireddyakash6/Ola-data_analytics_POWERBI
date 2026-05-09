@@ -5,8 +5,11 @@
 Ola’s ride ecosystem shows operational inefficiencies affecting revenue and customer experience:
 
 High ride cancellation rates (customer + driver-side)
+
 Imbalanced vehicle allocation across demand patterns
+
 Lack of visibility into booking success and failure patterns
+
 Revenue loss due to failed ride fulfillment
 
 👉 These issues reduce platform efficiency, driver utilization, and customer satisfaction.
@@ -16,10 +19,15 @@ Revenue loss due to failed ride fulfillment
 Built an end-to-end Power BI analytics solution to:
 
 Track ride performance and cancellation trends
+
 Analyze driver vs customer cancellation behavior
+
 Improve vehicle allocation efficiency
+
 Identify high-value customer segments
+
 Enable KPI-driven operational decisions
+
 
 **📊 Key KPIs**
 
@@ -35,20 +43,28 @@ Repeat Customer Ratio
 
 Power BI | Excel | DAX | Data Modeling | Business Intelligence
 
+
 **📈 Dashboard Highlights**
 
 KPI cards for real-time performance tracking
+
 Cancellation analysis (customer vs driver breakdown)
+
 Ride trend analysis over time
+
 Vehicle type performance comparison
+
 Customer segmentation insights
+
 Interactive filters (date, vehicle type, booking status)
+
 
 **🧮 DAX Measures**
 
 Success Rate = DIVIDE([Successful Bookings], [Total Bookings], 0)
 
 Cancellation Rate = DIVIDE([Cancelled Bookings], [Total Bookings], 0)
+
 
 **🔍 Key Business Insights**
 
@@ -75,13 +91,20 @@ Cancellation Rate = DIVIDE([Cancelled Bookings], [Total Bookings], 0)
 ✔ Customer Retention Strategy
 → Target high-frequency users with loyalty programs
 
+
 **📊 Business Impact**
 
 ✔ Identified ~25% cancellation-driven inefficiency impacting ride completion rate
+
 ✔ Improved visibility into driver vs customer behavior patterns
+
 ✔ Enabled data-driven vehicle allocation strategy design
+
 ✔ Highlighted high-value customer segments for retention focus
+
 ✔ Estimated potential ~20% operational efficiency improvement opportunity
+
+
 
 **🧠 Executive Summary**
 
