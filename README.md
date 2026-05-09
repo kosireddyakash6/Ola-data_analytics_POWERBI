@@ -84,6 +84,11 @@ Improved visibility into cancellation patterns
 Enhanced decision-making for operations team
 Potential ~20% operational efficiency improvement
 
+**Metric Insight Recommendation** 
+25% Cancellation Rate Driver issues peak at 65% Prioritize short trips for Auto drivers ​Vehicle Distance Variance Prime Sedan = 2.5x Auto distance Allocate long trips to Prime vehicles ​Top 5 Customers 7x repeat rides Loyalty program targeting.
+
+ROI Potential: 20% efficiency gain through optimized allocation
+
 **🧠 Tools Used**
 
 Power BI | Excel | DAX | Data Modeling | Business Intelligence
