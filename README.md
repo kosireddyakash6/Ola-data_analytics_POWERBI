@@ -101,10 +101,11 @@ Top repeat customers should be targeted with loyalty programs to increase ride f
 
 ✔ Top repeat customers contribute disproportionately to total ride volume, indicating strong retention concentration.
 
-📌 Executive Summary
-
-This project demonstrates a complete end-to-end data analytics workflow by converting raw ride-sharing data into actionable business decisions, similar to real-world BI systems used in mobility platforms like Ola and Uber.
 
 **🧠 Tools Used**
 
 Power BI | Excel | DAX | Data Modeling | Business Intelligence
+
+📌 Executive Summary
+
+This project demonstrates a complete end-to-end data analytics workflow by converting raw ride-sharing data into actionable business decisions, similar to real-world BI systems used in mobility platforms like Ola and Uber.
