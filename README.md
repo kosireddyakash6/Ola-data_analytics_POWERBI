@@ -1,56 +1,89 @@
-# Ola-data_analytics_POWERBI
-End-to-end analytics for Ola ride operations analyzing rides, drivers, and customer patterns. Uses Power BI dashboards to monitor ride performance, optimize driver allocation, analyze cancellations, and improve operational efficiency.
+**🚕 Ola Ride-Sharing Analytics Dashboard (Power BI Case Study)**
 
+**🧠 Business Problem**
 
-🚀 Ola Ride-Sharing Analytics:
-End-to-End Power BI Dashboard
+Ride-sharing platforms like Ola face operational challenges such as:
 
-100K+ rows analyzed | ETL → Interactive Power BI Visuals | Business Insights for Ride-Sharing Optimization
-High cancellation rates (25% total: 10K+ customer cancels, 6.5K driver issues) and suboptimal vehicle allocation hurt revenue. This dashboard optimizes:​
+High cancellation rates from customers and drivers
+Inefficient vehicle allocation
+Lack of visibility into booking performance
+Revenue loss due to ride drop-offs
 
-Success Rate Tracking: 70%+ successful bookings monitored
+These issues directly impact customer experience, driver efficiency, and platform profitability.
 
-Vehicle Optimization: Auto (6km avg) vs Prime Sedan (15km avg) performance
+**🎯 Project Objective**
 
-Customer Retention: Top 10 repeat riders identified for campaigns
+Built an end-to-end Power BI analytics solution to:
 
-🛠 Tech Stack & Workflow
+Monitor ride performance metrics
+Analyze cancellation behavior (customer vs driver)
+Optimize vehicle allocation strategy
+Identify high-value customer segments
+Improve operational efficiency using data-driven insights
 
-Data Cleaning	Excel	Removed 857 duplicates, AVERAGEIF for metrics ​
-Visualization	Power BI	DAX measures, slicers, maps, KPIs [powerbi]
+**🛠 Tech Stack**
 
-📈 Power BI Dashboard Features
+Excel → Data cleaning & preprocessing
+Power BI → Dashboard development
+DAX → KPI calculations
+Data Visualization → Interactive reporting
 
-Interactive Elements:
+**📊 Key KPIs**
 
-Slicers: Vehicle type, date range, booking status
+Total Bookings
+Successful Ride Rate
+Cancellation Rate
+Average Ride Distance
+Revenue Trend
+Repeat Customer Ratio
 
-KPIs: Success rate, total revenue, cancellation trends
+**📈 Dashboard Features**
 
-Visuals: Bar chart (cancellations), Map (distances), Line chart (trends), Table (top customers)
+Interactive slicers (Vehicle Type, Date, Booking Status)
+KPI cards for real-time performance tracking
+Trend analysis for ride performance
+Geographic ride distribution map
+Customer segmentation table (Top riders)
 
-DAX Measures Created:
+**🧮 DAX Measures Used**
 
-Success Rate = DIVIDE([Successful Bookings], [Total_Booking], 0)
+Success Rate =
+DIVIDE([Successful Bookings], [Total Bookings], 0)
 
-Cancellation Rate = DIVIDE([Cancelled Bookings], [Total_Bookings], 0)
+Cancellation Rate =
+DIVIDE([Cancelled Bookings], [Total Bookings], 0)
 
-🔍 Business Problems Solved:
-• High cancellation rate (25%)
-• Suboptimal driver & vehicle allocation
-• Low visibility into repeat customer patterns
+**🔍 Key Business Insights**
 
-📈 Solutions Delivered:
+✔ Overall cancellation rate is ~25%, with driver-related cancellations contributing significantly during peak hours.
 
-✅ KPI-driven success & cancellation tracking
-✅ Distance-based vehicle allocation strategy
-✅ Repeat customer segmentation for retention
+✔ Short-distance trips are more frequently cancelled, indicating inefficiency in driver allocation strategy.
 
-🚀 Business Impact
+✔ Prime Sedan vehicles show 2.5x higher average trip distance compared to Auto, indicating segmentation imbalance.
 
-Metric	Insight	Recommendation
-25% Cancellation Rate	Driver issues peak at 65%	Prioritize short trips for Auto drivers ​
-Vehicle Distance Variance	Prime Sedan = 2.5x Auto distance	Allocate long trips to Prime vehicles ​
-Top 5 Customers	7x repeat rides	Loyalty program targeting.
+✔ A small group of repeat customers contributes disproportionately to ride frequency, indicating strong retention potential.
 
-ROI Potential: 20% efficiency gain through optimized allocation
+**💡 Business Recommendations**
+
+✔ Dynamic Driver Allocation System
+High cancellation rates during peak hours indicate mismatch in ride assignment → implement real-time allocation optimization.
+
+✔ Trip-Type Based Vehicle Segmentation
+Short trips should be prioritized for Auto drivers, while long-distance rides should be routed to Prime vehicles.
+
+✔ Driver Performance Monitoring System
+Introduce cancellation-based KPI scoring to identify and improve low-performing drivers.
+
+✔ Customer Retention Strategy
+Top repeat customers should be targeted with loyalty programs to increase ride frequency and lifetime value.
+
+**📊 Business Impact**
+
+Reduced inefficiency in ride allocation
+Improved visibility into cancellation patterns
+Enhanced decision-making for operations team
+Potential ~20% operational efficiency improvement
+
+**🧠 Tools Used**
+
+Power BI | Excel | DAX | Data Modeling | Business Intelligence
