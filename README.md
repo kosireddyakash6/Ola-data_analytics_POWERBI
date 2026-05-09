@@ -22,12 +22,14 @@ Identify high-value customer segments
 Enable KPI-driven operational decisions
 
 **📊 Key KPIs**
+
 Total Bookings
 Successful Ride Rate
 Cancellation Rate
 Average Ride Distance
 Revenue Trend
 Repeat Customer Ratio
+
 
 **🛠 Tech Stack**
 
