@@ -2,7 +2,9 @@
 
 **🧠 Business Problem**
 
-Ride-sharing platforms like Ola face operational challenges such as:
+## 🧠 Business Problem
+
+🚕 This analysis identifies key operational inefficiencies in Ola’s ride ecosystem, highlighting cancellation-driven revenue leakage and allocation imbalance across vehicle types and customer segments.
 
 High cancellation rates from customers and drivers
 Inefficient vehicle allocation
@@ -55,13 +57,13 @@ DIVIDE([Cancelled Bookings], [Total Bookings], 0)
 
 **🔍 Key Business Insights**
 
-✔ Overall cancellation rate is ~25%, with driver-related cancellations contributing significantly during peak hours.
+✔ Cancellation rate of ~25% is largely driven by driver-side cancellations during peak hours, indicating a supply-demand imbalance in high congestion windows.
 
-✔ Short-distance trips are more frequently cancelled, indicating inefficiency in driver allocation strategy.
+✔ Short-distance rides show disproportionately higher cancellation probability, suggesting inefficient driver assignment strategy for low-value trips.
 
-✔ Prime Sedan vehicles show 2.5x higher average trip distance compared to Auto, indicating segmentation imbalance.
+✔ Prime Sedan usage shows 2.5x higher average trip distance than Auto, revealing a structural imbalance in vehicle segmentation strategy.
 
-✔ A small group of repeat customers contributes disproportionately to ride frequency, indicating strong retention potential.
+✔ Repeat customers contribute disproportionately to ride volume, indicating high-value customer concentration suitable for loyalty targeting.
 
 **💡 Business Recommendations**
 
@@ -79,15 +81,29 @@ Top repeat customers should be targeted with loyalty programs to increase ride f
 
 **📊 Business Impact**
 
-Reduced inefficiency in ride allocation
-Improved visibility into cancellation patterns
-Enhanced decision-making for operations team
-Potential ~20% operational efficiency improvement
+✔ Identified ~25% cancellation-driven operational inefficiency impacting ride fulfillment rates
 
-**Metric Insight Recommendation** 
-25% Cancellation Rate Driver issues peak at 65% Prioritize short trips for Auto drivers ​Vehicle Distance Variance Prime Sedan = 2.5x Auto distance Allocate long trips to Prime vehicles ​Top 5 Customers 7x repeat rides Loyalty program targeting.
+✔ Revealed vehicle allocation mismatch reducing driver utilization efficiency
 
-ROI Potential: 20% efficiency gain through optimized allocation
+✔ Enabled data-driven segmentation strategy for ride allocation optimization
+
+✔ Highlighted high-value customer groups for retention-focused growth strategy
+
+✔ Estimated potential ~20% operational efficiency improvement through optimized allocation strategy
+
+**📊 KPI Deep-Dive Insights**
+
+✔ 25% cancellation rate is largely driven by driver-side cancellations during peak hours, indicating a supply-demand imbalance in high congestion windows.
+
+✔ Driver efficiency varies significantly across trip types, with short-distance rides showing higher cancellation probability.
+
+✔ Prime Sedan rides cover ~2.5x higher distance than Auto, revealing structural segmentation inefficiency.
+
+✔ Top repeat customers contribute disproportionately to total ride volume, indicating strong retention concentration.
+
+📌 Executive Summary
+
+This project demonstrates a complete end-to-end data analytics workflow by converting raw ride-sharing data into actionable business decisions, similar to real-world BI systems used in mobility platforms like Ola and Uber.
 
 **🧠 Tools Used**
 
