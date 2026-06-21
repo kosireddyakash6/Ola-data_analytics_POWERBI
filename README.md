@@ -125,3 +125,5 @@ CanceledPercentage = DIVIDE([Cancelled Bookings], [Total Booking], 0) * 100
 2. **Mitigate "Driver Not Found" Bottlenecks:** This structural issue accounts for **9.83% of total booking failures**. **Action:** Deploy dynamic supply incentives (such as surge bonuses) to draw offline drivers into unserved grid zones during high-demand time slots.
 3. **Optimize Payment Infrastructure Cash Flow:** **Cash** and **UPI** represent the overwhelming majority of payment methods. **Action:** Ensure the mobile driver application has real-time UPI payment verification built-in to minimize payment disputes and smooth out trip completion times.
 4. **Maintain Uniform Fleet Standards:** Average driver and customer ratings across all segments are highly consistent, sitting tightly between **3.98 and 4.01 stars**. **Action:** Since baseline quality is stable, focus expansion efforts on high-margin tiers like **Prime Sedan** and **Prime SUV**, which generate the platform's highest gross booking values.
+## **Author**
+Kosireddy Akash | Data Analyst | Python • SQL • Power BI Analytics
