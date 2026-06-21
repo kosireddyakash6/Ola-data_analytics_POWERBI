@@ -1,6 +1,3 @@
-Here is the highly tailored, exact `README.md` structured specifically around the layout, tabs, and data hardcoded inside your actual Power BI project screens.
-
----
 
 # **PROJECT: OLA RIDE ANALYTICS (END-TO-END POWER BI OPERATIONAL DASHBOARD)**
 
